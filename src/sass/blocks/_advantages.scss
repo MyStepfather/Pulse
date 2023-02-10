@@ -1,0 +1,48 @@
+.advantages {
+    background: #F6F6F6;
+    &__header {
+        padding-top: 70px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__items-wrapper {
+        padding-bottom: 82px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        width: 100%;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 269px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__title {
+        margin-top: 35px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 29px;
+        color: #0D0D0D;
+    }
+    &__description {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #0D0D0D;
+        a {
+            color: $main-color;
+            text-decoration: underline;
+            font-family: "MuseoSansCyrl";
+        }
+    }
+}
